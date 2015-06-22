@@ -14,25 +14,25 @@
 		"aureooms-js-search": "^0.0.4",
 		"aureooms-js-array": "^2.2.0"
 	},
-	"main": "js/dist/sort.js",
+	"main": "js/dist/quicksort.js",
 	"bugs": {
-		"url": "https://github.com/aureooms/js-sort/issues"
+		"url": "https://github.com/aureooms/js-quicksort/issues"
 	},
 	"license": "AGPL-3.0",
-	"homepage": "http://aureooms.github.io/js-sort/",
-	"description": "sorting code bricks for JavaScript",
+	"homepage": "http://aureooms.github.io/js-quicksort/",
+	"description": "quicksort code bricks for JavaScript",
 	"dependencies": {},
 	"keywords": [
 		"bricks",
+		"ender",
 		"javascript",
 		"js",
-		"order",
-		"sort",
+		"quicksort",
 		"sorting"
 	],
-	"name": "aureooms-js-sort",
+	"name": "aureooms-js-quicksort",
 	"repository": {
-		"url": "https://github.com/aureooms/js-sort.git",
+		"url": "https://github.com/aureooms/js-quicksort.git",
 		"type": "git"
 	},
 	"version": "5.0.4"

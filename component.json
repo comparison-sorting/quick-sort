@@ -1,11 +1,11 @@
 {
-	"description": "sorting code bricks for JavaScript",
+	"description": "quicksort code bricks for JavaScript",
 	"version": "5.0.4",
-	"repo": "aureooms/js-sort",
+	"repo": "aureooms/js-quicksort",
 	"scripts": [
-		"js/dist/sort.js"
+		"js/dist/quicksort.js"
 	],
-	"name": "aureooms-js-sort",
+	"name": "aureooms-js-quicksort",
 	"license": "AGPL-3.0",
-	"main": "js/dist/sort.js"
+	"main": "js/dist/quicksort.js"
 }

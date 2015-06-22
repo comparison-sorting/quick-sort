@@ -1,6 +1,6 @@
 {
 	"description": "quicksort code bricks for JavaScript",
-	"version": "5.0.4",
+	"version": "6.0.0",
 	"repo": "aureooms/js-quicksort",
 	"scripts": [
 		"js/dist/quicksort.js"

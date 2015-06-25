@@ -31,5 +31,8 @@
     "url": "https://github.com/aureooms/js-quicksort.git",
     "type": "git"
   },
-  "version": "6.0.0"
+  "version": "6.0.0",
+  "spm": {
+    "main": "js/dist/quicksort.js"
+  }
 }

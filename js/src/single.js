@@ -8,7 +8,7 @@
  * @param {callable} partition the implementation for the partitioning step
  */
 
-var __quicksort__ = function ( partition ) {
+let single = function ( partition ) {
 
 
 	/**
@@ -22,9 +22,7 @@ var __quicksort__ = function ( partition ) {
 	 *
 	 */
 
-	var quicksort = function ( compare , array , left , right ) {
-
-		var pivot ;
+	let sort = function ( compare , array , left , right ) {
 
 		// in the case where interval [left,right) contains
 		// only one element we are done!
@@ -37,21 +35,21 @@ var __quicksort__ = function ( partition ) {
 		// is greater or equal to all elements of the first subinterval
 		// and less or equal to all elements of the third subinterval
 
-		pivot = partition( compare , array , left , right ) ;
+		let pivot = partition( compare , array , left , right ) ;
 
 		// and then we just need to ask the recursion fairy
 		// to sort the first and third subintervals
 
 		// the recursion fairy sorts [left,pivot)
-		quicksort( compare , array , left      , pivot ) ;
+		sort( compare , array , left      , pivot ) ;
 
 		// and then [pivot+1,right)
-		quicksort( compare , array , pivot + 1 , right ) ;
+		sort( compare , array , pivot + 1 , right ) ;
 
-	}
+	} ;
 
-	return quicksort ;
+	return sort ;
 
-}
+} ;
 
-exports.__quicksort__ = __quicksort__ ;
+exports.single = single ;

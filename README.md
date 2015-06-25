@@ -1,7 +1,11 @@
 [js-quicksort](http://aureooms.github.io/js-quicksort)
 ==
 
-Sorting code bricks for JavaScript.
+Quicksort code bricks for JavaScript.
+
+```js
+let sort = quicksort.singletco( partition.hoare ) ;
+```
 
 [![NPM license](http://img.shields.io/npm/l/aureooms-js-quicksort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-quicksort/master/LICENSE)
 [![NPM version](http://img.shields.io/npm/v/aureooms-js-quicksort.svg?style=flat)](https://www.npmjs.org/package/aureooms-js-quicksort)
@@ -15,54 +19,120 @@ Sorting code bricks for JavaScript.
 [![GitHub issues](http://img.shields.io/github/issues/aureooms/js-quicksort.svg?style=flat)](https://github.com/aureooms/js-quicksort/issues)
 [![Inline docs](http://inch-ci.org/github/aureooms/js-quicksort.svg?branch=master&style=shields)](http://inch-ci.org/github/aureooms/js-quicksort)
 
-Can be managed through [duo](https://github.com/duojs/duo),
-[component](https://github.com/componentjs/component),
-[bower](https://github.com/bower/bower), or
-[npm](https://github.com/npm/npm).
 
+Can be managed through [jspm](https://github.com/jspm/jspm-cli),
+[duo](https://github.com/duojs/duo),
+[component](https://github.com/componentjs/component),
+[bower](https://github.com/bower/bower),
+[ender](https://github.com/ender-js/Ender),
+[jam](https://github.com/caolan/jam),
+[spm](https://github.com/spmjs/spm),
+and [npm](https://github.com/npm/npm).
+
+## Install
+
+### jspm
+```terminal
+jspm install github:aureooms/js-quicksort
+# or
+jspm install npm:aureooms-js-quicksort
+```
+### duo
+No install step needed for duo!
+
+### component
+```terminal
+component install aureooms/js-quicksort
+```
+
+### bower
+```terminal
+bower install aureooms-js-quicksort
+```
+
+### ender
+```terminal
+ender add aureooms-js-quicksort
+```
+
+### jam
+```terminal
+jam install aureooms-js-quicksort
+```
+
+### spm
+```terminal
+spm install aureooms-js-quicksort --save
+```
+
+### npm
+```terminal
+npm install aureooms-js-quicksort --save
+```
+
+## Require
+### jspm
 ```js
-let sort = require( "aureooms-js-quicksort" ) ;
+let quicksort = require( "github:aureooms/js-quicksort" ) ;
+// or
+import quicksort from 'aureooms-js-quicksort' ;
+```
+### duo
+```js
+let quicksort = require( "aureooms/js-quicksort" ) ;
+```
+
+### component, ender, spm, npm
+```js
+let quicksort = require( "aureooms-js-quicksort" ) ;
+```
+
+### bower
+The script tag exposes the global variable `quicksort`.
+```html
+<script src="bower_components/aureooms-js-quicksort/js/dist/quicksort.min.js"></script>
+```
+Alternatively, you can use any tool mentioned [here](http://bower.io/docs/tools/).
+
+### jam
+```js
+require( [ "aureooms-js-quicksort" ] , function ( quicksort ) { ... } ) ;
 ```
 
 ## Use
 
 ```js
+let partition = require( "aureooms-js-partition" ) ;
 let compare = require( "aureooms-js-compare" ) ;
 
-/** quicksort using hoare partitioning */
-let quicksort = sort.__quicksort__( sort.hoare ) ;
+/** recursive single pivot quicksort using Hoare's partitioning algorithm*/
+let sort = quicksort.single( partition.hoare ) ;
 
 let a = [ 1 , 6 , 5 , 3 , 2 , 4 ] ;
 
-quicksort( compare.increasing , a , 0 , a.length ) ;
+sort( compare.increasing , a , 0 , a.length ) ;
 
 a ; // [ 1 , 2 , 3 , 4 , 5 , 6 ]
 
-quicksort( compare.decreasing , a , 0 , a.length ) ;
+sort( compare.decreasing , a , 0 , a.length ) ;
 
 a ; // [ 6 , 5 , 4 , 3 , 2 , 1 ]
 
 // but also
 
-/** binary heapsort */
-let heapsort = sort.__heapsort__( 2 ) ;
-/** ternary heapsort */
-let heapsort = sort.__heapsort__( 3 ) ;
-/** quicksort (lomuto) */
-let quicksort = sort.__quicksort__( sort.lomuto ) ;
-/** dualpivotquicksort (yaroslavskiy) */
-let quicksort = sort.__dualpivotquicksort__( sort.yaroslavskiy ) ;
-/** insertionsort */
-let insertionsort = sort.insertionsort ;
-/** selectionsort */
-let selectionsort = sort.selectionsort ;
-/** bubblesort */
-let bubblesort = sort.bubblesort ;
+/** recursive single pivot quicksort using Lomuto's partitioning algorithm */
+let sort = quicksort.single( partition.lomuto ) ;
+/** with explicit tail call optimization */
+let sort = quicksort.singletco( partition.hoare ) ;
+let sort = quicksort.singletco( partition.lomuto ) ;
+
+/** recursive dual pivot quicksort using Yaroslavskiy's partitioning algorithm*/
+let sort = quicksort.dual( partition.yaroslavskiy ) ;
+/** with explicit tail call optimization */
+let sort = quicksort.dualtco( partition.yaroslavskiy ) ;
 ```
 
 ## Reference
 
   - https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/3463
   - http://sorting.at
-
-***( forked from [js-sort](https://github.com/aureooms/js-sort) )***

@@ -25,6 +25,132 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
           "type": "heading",
           "data": {
             "level": 2,
+            "title": "Install",
+            "slug": "install"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "jspm",
+                "slug": "jspm"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "duo",
+                "slug": "duo"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "component",
+                "slug": "component"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "bower",
+                "slug": "bower"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "ender",
+                "slug": "ender"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "jam",
+                "slug": "jam"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "spm",
+                "slug": "spm"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "npm",
+                "slug": "npm"
+              },
+              "depth": 3
+            }
+          ]
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
+            "title": "Require",
+            "slug": "require"
+          },
+          "depth": 2,
+          "children": [
+            {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "jspm",
+                "slug": "jspm"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "duo",
+                "slug": "duo"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "component, ender, spm, npm",
+                "slug": "component-ender-spm-npm"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "bower",
+                "slug": "bower"
+              },
+              "depth": 3
+            }, {
+              "type": "heading",
+              "data": {
+                "level": 3,
+                "title": "jam",
+                "slug": "jam"
+              },
+              "depth": 3
+            }
+          ]
+        }, {
+          "type": "heading",
+          "data": {
+            "level": 2,
             "title": "Use",
             "slug": "use"
           },
@@ -40,435 +166,85 @@ f.event={add:function(a,c,d,e,g){var h,i,j,k,l,m,n,o,p,q,r,s;if(!(a.nodeType===3
         }
       ]
     }, {
-      "type": "folder",
+      "type": "file",
       "data": {
-        "path": "merge",
-        "title": "merge"
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/dual.js",
+        "projectPath": "js/src/dual.js",
+        "targetPath": "dual",
+        "pageTitle": "dual",
+        "title": "dual"
       },
       "depth": 1,
-      "children": [
-        {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/merge/binarymerge.js",
-            "projectPath": "js/src/merge/binarymerge.js",
-            "targetPath": "merge/binarymerge",
-            "pageTitle": "merge/binarymerge",
-            "title": "binarymerge"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/merge/merge.js",
-            "projectPath": "js/src/merge/merge.js",
-            "targetPath": "merge/merge",
-            "pageTitle": "merge/merge",
-            "title": "merge"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/merge/tapemerge.js",
-            "projectPath": "js/src/merge/tapemerge.js",
-            "targetPath": "merge/tapemerge",
-            "pageTitle": "merge/tapemerge",
-            "title": "tapemerge"
-          },
-          "depth": 2,
-          "outline": []
-        }
-      ]
+      "outline": []
     }, {
-      "type": "folder",
+      "type": "file",
       "data": {
-        "path": "partition",
-        "title": "partition"
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/dualtco.js",
+        "projectPath": "js/src/dualtco.js",
+        "targetPath": "dualtco",
+        "pageTitle": "dualtco",
+        "title": "dualtco"
       },
       "depth": 1,
-      "children": [
-        {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/partition/hoare.js",
-            "projectPath": "js/src/partition/hoare.js",
-            "targetPath": "partition/hoare",
-            "pageTitle": "partition/hoare",
-            "title": "hoare"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/partition/lomuto.js",
-            "projectPath": "js/src/partition/lomuto.js",
-            "targetPath": "partition/lomuto",
-            "pageTitle": "partition/lomuto",
-            "title": "lomuto"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/partition/yaroslavskiy.js",
-            "projectPath": "js/src/partition/yaroslavskiy.js",
-            "targetPath": "partition/yaroslavskiy",
-            "pageTitle": "partition/yaroslavskiy",
-            "title": "yaroslavskiy"
-          },
-          "depth": 2,
-          "outline": []
-        }
-      ]
+      "outline": []
     }, {
-      "type": "folder",
+      "type": "file",
       "data": {
-        "path": "select",
-        "title": "select"
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/single.js",
+        "projectPath": "js/src/single.js",
+        "targetPath": "single",
+        "pageTitle": "single",
+        "title": "single"
       },
       "depth": 1,
-      "children": [
-        {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/select/multiselect.js",
-            "projectPath": "js/src/select/multiselect.js",
-            "targetPath": "select/multiselect",
-            "pageTitle": "select/multiselect",
-            "title": "multiselect"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/select/quickselect.js",
-            "projectPath": "js/src/select/quickselect.js",
-            "targetPath": "select/quickselect",
-            "pageTitle": "select/quickselect",
-            "title": "quickselect"
-          },
-          "depth": 2,
-          "outline": []
-        }
-      ]
+      "outline": []
     }, {
-      "type": "folder",
+      "type": "file",
       "data": {
-        "path": "sort",
-        "title": "sort"
+        "language": {
+          "nameMatchers": [".js"],
+          "pygmentsLexer": "javascript",
+          "multiLineComment": ["/*", "*", "*/"],
+          "singleLineComment": ["//"],
+          "ignorePrefix": "}",
+          "foldPrefix": "^",
+          "name": "JavaScript"
+        },
+        "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/singletco.js",
+        "projectPath": "js/src/singletco.js",
+        "targetPath": "singletco",
+        "pageTitle": "singletco",
+        "title": "singletco"
       },
       "depth": 1,
-      "children": [
-        {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/bubblesort.js",
-            "projectPath": "js/src/sort/bubblesort.js",
-            "targetPath": "sort/bubblesort",
-            "pageTitle": "sort/bubblesort",
-            "title": "bubblesort"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/dualpivotquicksort.js",
-            "projectPath": "js/src/sort/dualpivotquicksort.js",
-            "targetPath": "sort/dualpivotquicksort",
-            "pageTitle": "sort/dualpivotquicksort",
-            "title": "dualpivotquicksort"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/fordjohnson.js",
-            "projectPath": "js/src/sort/fordjohnson.js",
-            "targetPath": "sort/fordjohnson",
-            "pageTitle": "sort/fordjohnson",
-            "title": "fordjohnson"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/heapsort.js",
-            "projectPath": "js/src/sort/heapsort.js",
-            "targetPath": "sort/heapsort",
-            "pageTitle": "sort/heapsort",
-            "title": "heapsort"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/insertionsort.js",
-            "projectPath": "js/src/sort/insertionsort.js",
-            "targetPath": "sort/insertionsort",
-            "pageTitle": "sort/insertionsort",
-            "title": "insertionsort"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/iterativemergesort.js",
-            "projectPath": "js/src/sort/iterativemergesort.js",
-            "targetPath": "sort/iterativemergesort",
-            "pageTitle": "sort/iterativemergesort",
-            "title": "iterativemergesort"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/mergesort.js",
-            "projectPath": "js/src/sort/mergesort.js",
-            "targetPath": "sort/mergesort",
-            "pageTitle": "sort/mergesort",
-            "title": "mergesort"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/quicksort.js",
-            "projectPath": "js/src/sort/quicksort.js",
-            "targetPath": "sort/quicksort",
-            "pageTitle": "sort/quicksort",
-            "title": "quicksort"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/sort/selectionsort.js",
-            "projectPath": "js/src/sort/selectionsort.js",
-            "targetPath": "sort/selectionsort",
-            "pageTitle": "sort/selectionsort",
-            "title": "selectionsort"
-          },
-          "depth": 2,
-          "outline": []
-        }
-      ]
-    }, {
-      "type": "folder",
-      "data": {
-        "path": "utils",
-        "title": "utils"
-      },
-      "depth": 1,
-      "children": [
-        {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/utils/issorted.js",
-            "projectPath": "js/src/utils/issorted.js",
-            "targetPath": "utils/issorted",
-            "pageTitle": "utils/issorted",
-            "title": "issorted"
-          },
-          "depth": 2,
-          "outline": []
-        }, {
-          "type": "file",
-          "data": {
-            "language": {
-              "nameMatchers": [".js"],
-              "pygmentsLexer": "javascript",
-              "multiLineComment": ["/*", "*", "*/"],
-              "singleLineComment": ["//"],
-              "ignorePrefix": "}",
-              "foldPrefix": "^",
-              "name": "JavaScript"
-            },
-            "sourcePath": "/home/aureooms/dev/js/js-quicksort/js/src/utils/whole.js",
-            "projectPath": "js/src/utils/whole.js",
-            "targetPath": "utils/whole",
-            "pageTitle": "utils/whole",
-            "title": "whole"
-          },
-          "depth": 2,
-          "outline": []
-        }
-      ]
+      "outline": []
     }
   ];
 

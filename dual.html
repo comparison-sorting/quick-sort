@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="en"><head><title>dual</title></head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"><meta name="groc-relative-root" content=""><meta name="groc-document-path" content="dual"><meta name="groc-project-path" content="js/src/dual.js"><meta name="groc-github-url" content="https://github.com/aureooms/js-quicksort"><link rel="stylesheet" type="text/css" media="all" href="assets/style.css"><script type="text/javascript" src="assets/behavior.js"></script><body><div id="meta"><div class="file-path"><a href="https://github.com/aureooms/js-quicksort/blob/master/js/src/dual.js">js/src/dual.js</a></div></div><div id="document"><div class="segment"><div class="code"><div class="wrapper"><span class="hljs-keyword">let</span> dual = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> partition </span>) </span>{
+
+	<span class="hljs-keyword">let</span> sort = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"> compare, a, i, j </span>) </span>{
+
+		<span class="hljs-keyword">if</span> ( j - i &lt; <span class="hljs-number">2</span> ) <span class="hljs-keyword">return</span> ;
+
+		<span class="hljs-keyword">let</span> p = partition( compare , a , i , j ) ;
+		<span class="hljs-keyword">let</span> l = p[<span class="hljs-number">0</span>] ;
+		<span class="hljs-keyword">let</span> g = p[<span class="hljs-number">1</span>] ;
+
+		sort( compare, a,   i  , l ) ;
+		sort( compare, a, l + <span class="hljs-number">1</span>, g ) ;
+		sort( compare, a, g + <span class="hljs-number">1</span>, j ) ;
+
+	} ;
+
+	<span class="hljs-keyword">return</span> sort ;
+
+} ;
+
+exports.dual = dual ;</div></div></div></div></body></html>

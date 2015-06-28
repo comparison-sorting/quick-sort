@@ -1,7 +1,8 @@
 [js-quicksort](http://aureooms.github.io/js-quicksort)
 ==
 
-Quicksort code bricks for JavaScript.
+Quicksort code bricks for JavaScript. Parent is
+[aureooms/js-sort](https://github.com/aureooms/js-sort).
 
 ```js
 let sort = quicksort.singletco( partition.hoare ) ;

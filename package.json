@@ -1,7 +1,7 @@
 {
   "name": "aureooms-js-quicksort",
   "description": "Quicksort algorithm for JavaScript",
-  "version": "7.0.0",
+  "version": "8.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
   "ava": {
     "require": [

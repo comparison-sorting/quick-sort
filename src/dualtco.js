@@ -1,5 +1,5 @@
 
-export function dualtco ( partition {
+export function dualtco ( partition ) {
 
 	const sort = function ( compare, a, i, j ) {
 

@@ -1,7 +1,7 @@
 import ava from 'ava' ;
 
 import partition from "aureooms-js-partition" ;
-import insitusortspec from "aureooms-js-in-situ-sort-spec" ;
+import * as insitusortspec from "aureooms-js-in-situ-sort-spec" ;
 
 import * as quicksort from '../../src' ;
 

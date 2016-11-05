@@ -1,38 +1,37 @@
 {
-	"author": "aureooms",
-	"scripts": {
-		"doc": "./node_modules/.bin/groc",
-		"build": "./node_modules/.bin/aureooms-node-package-build",
-		"test": "./node_modules/.bin/aureooms-node-package-test"
-	},
-	"devDependencies": {
-		"aureooms-js-in-situ-sort-spec": "^6.0.1",
-		"aureooms-js-partition": "^7.0.0",
-		"aureooms-node-package": "^6.0.1"
-	},
-	"main": "js/dist/quicksort.js",
-	"bugs": {
-		"url": "https://github.com/aureooms/js-quicksort/issues"
-	},
-	"license": "AGPL-3.0",
-	"homepage": "http://aureooms.github.io/js-quicksort/",
-	"description": "quicksort code bricks for JavaScript",
-	"dependencies": {},
-	"keywords": [
-		"bricks",
-		"ender",
-		"javascript",
-		"js",
-		"quicksort",
-		"sorting"
-	],
-	"name": "aureooms-js-quicksort",
-	"repository": {
-		"url": "https://github.com/aureooms/js-quicksort.git",
-		"type": "git"
-	},
-	"version": "7.0.0",
-	"spm": {
-		"main": "js/dist/quicksort.js"
-	}
+  "source": "./src",
+  "destination": "./gh-pages",
+  "access": [
+    "public",
+    "protected",
+    "private"
+  ],
+  "debug": false,
+  "index": "./README.md",
+  "package": "./package.json",
+  "title": "aureooms/js-quicksort",
+  "test": {
+    "type": "ava",
+    "source": "./test/src"
+  },
+  "manual": {
+    "overview": [
+      "./doc/manual/overview.md"
+    ],
+    "installation": [
+      "./doc/manual/installation.md"
+    ],
+    "usage": [
+      "./doc/manual/usage.md"
+    ],
+    "example": [
+      "./doc/manual/example.md"
+    ]
+  },
+  "styles": [
+    "./doc/css/style.css"
+  ],
+  "scripts": [
+    "./doc/scripts/header.js"
+  ]
 }

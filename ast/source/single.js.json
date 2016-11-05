@@ -1,0 +1,1569 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ExportNamedDeclaration",
+      "declaration": {
+        "type": "FunctionDeclaration",
+        "id": {
+          "type": "Identifier",
+          "name": "single",
+          "range": [
+            288,
+            294
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 16
+            },
+            "end": {
+              "line": 11,
+              "column": 22
+            }
+          }
+        },
+        "params": [
+          {
+            "type": "Identifier",
+            "name": "partition",
+            "range": [
+              297,
+              306
+            ],
+            "loc": {
+              "start": {
+                "line": 11,
+                "column": 25
+              },
+              "end": {
+                "line": 11,
+                "column": 34
+              }
+            }
+          }
+        ],
+        "body": {
+          "type": "BlockStatement",
+          "body": [
+            {
+              "type": "VariableDeclaration",
+              "declarations": [
+                {
+                  "type": "VariableDeclarator",
+                  "id": {
+                    "type": "Identifier",
+                    "name": "sort",
+                    "range": [
+                      663,
+                      667
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 24,
+                        "column": 7
+                      },
+                      "end": {
+                        "line": 24,
+                        "column": 11
+                      }
+                    }
+                  },
+                  "init": {
+                    "type": "FunctionExpression",
+                    "id": null,
+                    "params": [
+                      {
+                        "type": "Identifier",
+                        "name": "compare",
+                        "range": [
+                          681,
+                          688
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 24,
+                            "column": 25
+                          },
+                          "end": {
+                            "line": 24,
+                            "column": 32
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "array",
+                        "range": [
+                          691,
+                          696
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 24,
+                            "column": 35
+                          },
+                          "end": {
+                            "line": 24,
+                            "column": 40
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "left",
+                        "range": [
+                          699,
+                          703
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 24,
+                            "column": 43
+                          },
+                          "end": {
+                            "line": 24,
+                            "column": 47
+                          }
+                        }
+                      },
+                      {
+                        "type": "Identifier",
+                        "name": "right",
+                        "range": [
+                          706,
+                          711
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 24,
+                            "column": 50
+                          },
+                          "end": {
+                            "line": 24,
+                            "column": 55
+                          }
+                        }
+                      }
+                    ],
+                    "body": {
+                      "type": "BlockStatement",
+                      "body": [
+                        {
+                          "type": "IfStatement",
+                          "test": {
+                            "type": "BinaryExpression",
+                            "operator": "<",
+                            "left": {
+                              "type": "BinaryExpression",
+                              "operator": "-",
+                              "left": {
+                                "type": "Identifier",
+                                "name": "right",
+                                "range": [
+                                  814,
+                                  819
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 29,
+                                    "column": 7
+                                  },
+                                  "end": {
+                                    "line": 29,
+                                    "column": 12
+                                  }
+                                }
+                              },
+                              "right": {
+                                "type": "Identifier",
+                                "name": "left",
+                                "range": [
+                                  822,
+                                  826
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 29,
+                                    "column": 15
+                                  },
+                                  "end": {
+                                    "line": 29,
+                                    "column": 19
+                                  }
+                                }
+                              },
+                              "range": [
+                                814,
+                                826
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 29,
+                                  "column": 7
+                                },
+                                "end": {
+                                  "line": 29,
+                                  "column": 19
+                                }
+                              }
+                            },
+                            "right": {
+                              "type": "Literal",
+                              "value": 2,
+                              "raw": "2",
+                              "range": [
+                                829,
+                                830
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 29,
+                                  "column": 22
+                                },
+                                "end": {
+                                  "line": 29,
+                                  "column": 23
+                                }
+                              }
+                            },
+                            "range": [
+                              814,
+                              830
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 29,
+                                "column": 7
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 23
+                              }
+                            }
+                          },
+                          "consequent": {
+                            "type": "ReturnStatement",
+                            "argument": null,
+                            "range": [
+                              833,
+                              841
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 29,
+                                "column": 26
+                              },
+                              "end": {
+                                "line": 29,
+                                "column": 34
+                              }
+                            }
+                          },
+                          "alternate": null,
+                          "range": [
+                            809,
+                            841
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 29,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 29,
+                              "column": 34
+                            }
+                          },
+                          "leadingComments": [
+                            {
+                              "type": "Line",
+                              "value": " in the case where interval [left,right) contains",
+                              "range": [
+                                719,
+                                770
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 26,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 26,
+                                  "column": 53
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " only one element we are done!",
+                              "range": [
+                                773,
+                                805
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 27,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 27,
+                                  "column": 34
+                                }
+                              }
+                            }
+                          ],
+                          "trailingComments": [
+                            {
+                              "type": "Line",
+                              "value": " otherwise we partition interval [left,right) into three disjoint",
+                              "range": [
+                                845,
+                                912
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 31,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 31,
+                                  "column": 69
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " subintervals [left,pivot), [pivot, pivot+1) and [pivot+1,right)",
+                              "range": [
+                                915,
+                                981
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 32,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 32,
+                                  "column": 68
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " where the pivot is the position whose element",
+                              "range": [
+                                984,
+                                1032
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 33,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 33,
+                                  "column": 50
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " is greater or equal to all elements of the first subinterval",
+                              "range": [
+                                1035,
+                                1098
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 34,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 34,
+                                  "column": 65
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " and less or equal to all elements of the third subinterval",
+                              "range": [
+                                1101,
+                                1162
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 35,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 35,
+                                  "column": 63
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "VariableDeclaration",
+                          "declarations": [
+                            {
+                              "type": "VariableDeclarator",
+                              "id": {
+                                "type": "Identifier",
+                                "name": "pivot",
+                                "range": [
+                                  1172,
+                                  1177
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 37,
+                                    "column": 8
+                                  },
+                                  "end": {
+                                    "line": 37,
+                                    "column": 13
+                                  }
+                                }
+                              },
+                              "init": {
+                                "type": "CallExpression",
+                                "callee": {
+                                  "type": "Identifier",
+                                  "name": "partition",
+                                  "range": [
+                                    1180,
+                                    1189
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 37,
+                                      "column": 16
+                                    },
+                                    "end": {
+                                      "line": 37,
+                                      "column": 25
+                                    }
+                                  }
+                                },
+                                "arguments": [
+                                  {
+                                    "type": "Identifier",
+                                    "name": "compare",
+                                    "range": [
+                                      1191,
+                                      1198
+                                    ],
+                                    "loc": {
+                                      "start": {
+                                        "line": 37,
+                                        "column": 27
+                                      },
+                                      "end": {
+                                        "line": 37,
+                                        "column": 34
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "Identifier",
+                                    "name": "array",
+                                    "range": [
+                                      1201,
+                                      1206
+                                    ],
+                                    "loc": {
+                                      "start": {
+                                        "line": 37,
+                                        "column": 37
+                                      },
+                                      "end": {
+                                        "line": 37,
+                                        "column": 42
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "Identifier",
+                                    "name": "left",
+                                    "range": [
+                                      1209,
+                                      1213
+                                    ],
+                                    "loc": {
+                                      "start": {
+                                        "line": 37,
+                                        "column": 45
+                                      },
+                                      "end": {
+                                        "line": 37,
+                                        "column": 49
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "type": "Identifier",
+                                    "name": "right",
+                                    "range": [
+                                      1216,
+                                      1221
+                                    ],
+                                    "loc": {
+                                      "start": {
+                                        "line": 37,
+                                        "column": 52
+                                      },
+                                      "end": {
+                                        "line": 37,
+                                        "column": 57
+                                      }
+                                    }
+                                  }
+                                ],
+                                "range": [
+                                  1180,
+                                  1223
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 37,
+                                    "column": 16
+                                  },
+                                  "end": {
+                                    "line": 37,
+                                    "column": 59
+                                  }
+                                }
+                              },
+                              "range": [
+                                1172,
+                                1223
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 37,
+                                  "column": 8
+                                },
+                                "end": {
+                                  "line": 37,
+                                  "column": 59
+                                }
+                              }
+                            }
+                          ],
+                          "kind": "const",
+                          "range": [
+                            1166,
+                            1225
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 37,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 37,
+                              "column": 61
+                            }
+                          },
+                          "leadingComments": [
+                            {
+                              "type": "Line",
+                              "value": " otherwise we partition interval [left,right) into three disjoint",
+                              "range": [
+                                845,
+                                912
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 31,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 31,
+                                  "column": 69
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " subintervals [left,pivot), [pivot, pivot+1) and [pivot+1,right)",
+                              "range": [
+                                915,
+                                981
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 32,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 32,
+                                  "column": 68
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " where the pivot is the position whose element",
+                              "range": [
+                                984,
+                                1032
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 33,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 33,
+                                  "column": 50
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " is greater or equal to all elements of the first subinterval",
+                              "range": [
+                                1035,
+                                1098
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 34,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 34,
+                                  "column": 65
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " and less or equal to all elements of the third subinterval",
+                              "range": [
+                                1101,
+                                1162
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 35,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 35,
+                                  "column": 63
+                                }
+                              }
+                            }
+                          ],
+                          "trailingComments": [
+                            {
+                              "type": "Line",
+                              "value": " and then we just need to ask the recursion fairy",
+                              "range": [
+                                1229,
+                                1280
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 39,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 39,
+                                  "column": 53
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " to sort the first and third subintervals",
+                              "range": [
+                                1283,
+                                1326
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 40,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 40,
+                                  "column": 45
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " the recursion fairy sorts [left,pivot)",
+                              "range": [
+                                1330,
+                                1371
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 42,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 42,
+                                  "column": 43
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStatement",
+                          "expression": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "Identifier",
+                              "name": "sort",
+                              "range": [
+                                1374,
+                                1378
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 43,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 43,
+                                  "column": 6
+                                }
+                              }
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "compare",
+                                "range": [
+                                  1380,
+                                  1387
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 43,
+                                    "column": 8
+                                  },
+                                  "end": {
+                                    "line": 43,
+                                    "column": 15
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Identifier",
+                                "name": "array",
+                                "range": [
+                                  1390,
+                                  1395
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 43,
+                                    "column": 18
+                                  },
+                                  "end": {
+                                    "line": 43,
+                                    "column": 23
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Identifier",
+                                "name": "left",
+                                "range": [
+                                  1398,
+                                  1402
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 43,
+                                    "column": 26
+                                  },
+                                  "end": {
+                                    "line": 43,
+                                    "column": 30
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Identifier",
+                                "name": "pivot",
+                                "range": [
+                                  1410,
+                                  1415
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 43,
+                                    "column": 38
+                                  },
+                                  "end": {
+                                    "line": 43,
+                                    "column": 43
+                                  }
+                                }
+                              }
+                            ],
+                            "range": [
+                              1374,
+                              1417
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 43,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 43,
+                                "column": 45
+                              }
+                            }
+                          },
+                          "range": [
+                            1374,
+                            1419
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 43,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 43,
+                              "column": 47
+                            }
+                          },
+                          "leadingComments": [
+                            {
+                              "type": "Line",
+                              "value": " and then we just need to ask the recursion fairy",
+                              "range": [
+                                1229,
+                                1280
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 39,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 39,
+                                  "column": 53
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " to sort the first and third subintervals",
+                              "range": [
+                                1283,
+                                1326
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 40,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 40,
+                                  "column": 45
+                                }
+                              }
+                            },
+                            {
+                              "type": "Line",
+                              "value": " the recursion fairy sorts [left,pivot)",
+                              "range": [
+                                1330,
+                                1371
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 42,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 42,
+                                  "column": 43
+                                }
+                              }
+                            }
+                          ],
+                          "trailingComments": [
+                            {
+                              "type": "Line",
+                              "value": " and then [pivot+1,right)",
+                              "range": [
+                                1423,
+                                1450
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 45,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 45,
+                                  "column": 29
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "type": "ExpressionStatement",
+                          "expression": {
+                            "type": "CallExpression",
+                            "callee": {
+                              "type": "Identifier",
+                              "name": "sort",
+                              "range": [
+                                1453,
+                                1457
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 46,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 46,
+                                  "column": 6
+                                }
+                              }
+                            },
+                            "arguments": [
+                              {
+                                "type": "Identifier",
+                                "name": "compare",
+                                "range": [
+                                  1459,
+                                  1466
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 46,
+                                    "column": 8
+                                  },
+                                  "end": {
+                                    "line": 46,
+                                    "column": 15
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Identifier",
+                                "name": "array",
+                                "range": [
+                                  1469,
+                                  1474
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 46,
+                                    "column": 18
+                                  },
+                                  "end": {
+                                    "line": 46,
+                                    "column": 23
+                                  }
+                                }
+                              },
+                              {
+                                "type": "BinaryExpression",
+                                "operator": "+",
+                                "left": {
+                                  "type": "Identifier",
+                                  "name": "pivot",
+                                  "range": [
+                                    1477,
+                                    1482
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 46,
+                                      "column": 26
+                                    },
+                                    "end": {
+                                      "line": 46,
+                                      "column": 31
+                                    }
+                                  }
+                                },
+                                "right": {
+                                  "type": "Literal",
+                                  "value": 1,
+                                  "raw": "1",
+                                  "range": [
+                                    1485,
+                                    1486
+                                  ],
+                                  "loc": {
+                                    "start": {
+                                      "line": 46,
+                                      "column": 34
+                                    },
+                                    "end": {
+                                      "line": 46,
+                                      "column": 35
+                                    }
+                                  }
+                                },
+                                "range": [
+                                  1477,
+                                  1486
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 46,
+                                    "column": 26
+                                  },
+                                  "end": {
+                                    "line": 46,
+                                    "column": 35
+                                  }
+                                }
+                              },
+                              {
+                                "type": "Identifier",
+                                "name": "right",
+                                "range": [
+                                  1489,
+                                  1494
+                                ],
+                                "loc": {
+                                  "start": {
+                                    "line": 46,
+                                    "column": 38
+                                  },
+                                  "end": {
+                                    "line": 46,
+                                    "column": 43
+                                  }
+                                }
+                              }
+                            ],
+                            "range": [
+                              1453,
+                              1496
+                            ],
+                            "loc": {
+                              "start": {
+                                "line": 46,
+                                "column": 2
+                              },
+                              "end": {
+                                "line": 46,
+                                "column": 45
+                              }
+                            }
+                          },
+                          "range": [
+                            1453,
+                            1498
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 46,
+                              "column": 2
+                            },
+                            "end": {
+                              "line": 46,
+                              "column": 47
+                            }
+                          },
+                          "leadingComments": [
+                            {
+                              "type": "Line",
+                              "value": " and then [pivot+1,right)",
+                              "range": [
+                                1423,
+                                1450
+                              ],
+                              "loc": {
+                                "start": {
+                                  "line": 45,
+                                  "column": 2
+                                },
+                                "end": {
+                                  "line": 45,
+                                  "column": 29
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ],
+                      "range": [
+                        714,
+                        1502
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 24,
+                          "column": 58
+                        },
+                        "end": {
+                          "line": 48,
+                          "column": 2
+                        }
+                      }
+                    },
+                    "generator": false,
+                    "expression": false,
+                    "range": [
+                      670,
+                      1502
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 24,
+                        "column": 14
+                      },
+                      "end": {
+                        "line": 48,
+                        "column": 2
+                      }
+                    }
+                  },
+                  "range": [
+                    663,
+                    1502
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 24,
+                      "column": 7
+                    },
+                    "end": {
+                      "line": 48,
+                      "column": 2
+                    }
+                  }
+                }
+              ],
+              "kind": "const",
+              "range": [
+                657,
+                1504
+              ],
+              "loc": {
+                "start": {
+                  "line": 24,
+                  "column": 1
+                },
+                "end": {
+                  "line": 48,
+                  "column": 4
+                }
+              },
+              "leadingComments": [
+                {
+                  "type": "Block",
+                  "value": "*\n\t * Sorts interval [left,right) of the array parameter according to a\n\t * compare method.\n\t *\n\t * @param {comparator} compare the comparator function\n\t * @param {array} array random access array\n\t * @param {offset} left inner left bound of the interval to sort\n\t * @param {offset} right outer right bound of the interval to sort\n\t *\n\t ",
+                  "range": [
+                    313,
+                    654
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 13,
+                      "column": 1
+                    },
+                    "end": {
+                      "line": 22,
+                      "column": 4
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "ReturnStatement",
+              "argument": {
+                "type": "Identifier",
+                "name": "sort",
+                "range": [
+                  1514,
+                  1518
+                ],
+                "loc": {
+                  "start": {
+                    "line": 50,
+                    "column": 8
+                  },
+                  "end": {
+                    "line": 50,
+                    "column": 12
+                  }
+                }
+              },
+              "range": [
+                1507,
+                1520
+              ],
+              "loc": {
+                "start": {
+                  "line": 50,
+                  "column": 1
+                },
+                "end": {
+                  "line": 50,
+                  "column": 14
+                }
+              }
+            }
+          ],
+          "range": [
+            309,
+            1523
+          ],
+          "loc": {
+            "start": {
+              "line": 11,
+              "column": 37
+            },
+            "end": {
+              "line": 52,
+              "column": 1
+            }
+          }
+        },
+        "generator": false,
+        "expression": false,
+        "range": [
+          279,
+          1523
+        ],
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 7
+          },
+          "end": {
+            "line": 52,
+            "column": 1
+          }
+        },
+        "leadingComments": [
+          {
+            "type": "Block",
+            "value": "*\n * Template for the recursive implementation of quicksort.\n * This template allows to generate a specific version of the quicksort\n * algorithm for a certain partitioning algorithm.\n *\n * @param {callable} partition the implementation for the partitioning step\n ",
+            "range": [
+              2,
+              270
+            ],
+            "loc": {
+              "start": {
+                "line": 3,
+                "column": 0
+              },
+              "end": {
+                "line": 9,
+                "column": 3
+              }
+            }
+          }
+        ],
+        "trailingComments": []
+      },
+      "specifiers": [],
+      "source": null,
+      "range": [
+        272,
+        1523
+      ],
+      "loc": {
+        "start": {
+          "line": 11,
+          "column": 0
+        },
+        "end": {
+          "line": 52,
+          "column": 1
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * Template for the recursive implementation of quicksort.\n * This template allows to generate a specific version of the quicksort\n * algorithm for a certain partitioning algorithm.\n *\n * @param {callable} partition the implementation for the partitioning step\n ",
+          "range": [
+            2,
+            270
+          ],
+          "loc": {
+            "start": {
+              "line": 3,
+              "column": 0
+            },
+            "end": {
+              "line": 9,
+              "column": 3
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    272,
+    1523
+  ],
+  "loc": {
+    "start": {
+      "line": 11,
+      "column": 0
+    },
+    "end": {
+      "line": 52,
+      "column": 1
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n * Template for the recursive implementation of quicksort.\n * This template allows to generate a specific version of the quicksort\n * algorithm for a certain partitioning algorithm.\n *\n * @param {callable} partition the implementation for the partitioning step\n ",
+      "range": [
+        2,
+        270
+      ],
+      "loc": {
+        "start": {
+          "line": 3,
+          "column": 0
+        },
+        "end": {
+          "line": 9,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n\t * Sorts interval [left,right) of the array parameter according to a\n\t * compare method.\n\t *\n\t * @param {comparator} compare the comparator function\n\t * @param {array} array random access array\n\t * @param {offset} left inner left bound of the interval to sort\n\t * @param {offset} right outer right bound of the interval to sort\n\t *\n\t ",
+      "range": [
+        313,
+        654
+      ],
+      "loc": {
+        "start": {
+          "line": 13,
+          "column": 1
+        },
+        "end": {
+          "line": 22,
+          "column": 4
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " in the case where interval [left,right) contains",
+      "range": [
+        719,
+        770
+      ],
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " only one element we are done!",
+      "range": [
+        773,
+        805
+      ],
+      "loc": {
+        "start": {
+          "line": 27,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 34
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " otherwise we partition interval [left,right) into three disjoint",
+      "range": [
+        845,
+        912
+      ],
+      "loc": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 69
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " subintervals [left,pivot), [pivot, pivot+1) and [pivot+1,right)",
+      "range": [
+        915,
+        981
+      ],
+      "loc": {
+        "start": {
+          "line": 32,
+          "column": 2
+        },
+        "end": {
+          "line": 32,
+          "column": 68
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " where the pivot is the position whose element",
+      "range": [
+        984,
+        1032
+      ],
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 2
+        },
+        "end": {
+          "line": 33,
+          "column": 50
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " is greater or equal to all elements of the first subinterval",
+      "range": [
+        1035,
+        1098
+      ],
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 2
+        },
+        "end": {
+          "line": 34,
+          "column": 65
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " and less or equal to all elements of the third subinterval",
+      "range": [
+        1101,
+        1162
+      ],
+      "loc": {
+        "start": {
+          "line": 35,
+          "column": 2
+        },
+        "end": {
+          "line": 35,
+          "column": 63
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " and then we just need to ask the recursion fairy",
+      "range": [
+        1229,
+        1280
+      ],
+      "loc": {
+        "start": {
+          "line": 39,
+          "column": 2
+        },
+        "end": {
+          "line": 39,
+          "column": 53
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " to sort the first and third subintervals",
+      "range": [
+        1283,
+        1326
+      ],
+      "loc": {
+        "start": {
+          "line": 40,
+          "column": 2
+        },
+        "end": {
+          "line": 40,
+          "column": 45
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " the recursion fairy sorts [left,pivot)",
+      "range": [
+        1330,
+        1371
+      ],
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 2
+        },
+        "end": {
+          "line": 42,
+          "column": 43
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " and then [pivot+1,right)",
+      "range": [
+        1423,
+        1450
+      ],
+      "loc": {
+        "start": {
+          "line": 45,
+          "column": 2
+        },
+        "end": {
+          "line": 45,
+          "column": 29
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "aureooms-js-quicksort",
+  "description": "Quicksort algorithm for JavaScript",
+  "version": "7.0.0",
+  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "ava": {
+    "require": [
+      "babel-polyfill",
+      "babel-register"
+    ]
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ],
+    "env": {
+      "development": {
+        "sourceMaps": "inline"
+      }
+    }
+  },
+  "bugs": {
+    "url": "https://github.com/aureooms/js-quicksort/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "aureooms-js-in-situ-sort-spec": "^7.0.0",
+    "aureooms-js-partition": "^7.0.0",
+    "ava": "^0.16.0",
+    "babel-cli": "^6.18.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "codeclimate-test-reporter": "^0.4.0",
+    "coveralls": "^2.11.14",
+    "esdoc": "^0.4.8",
+    "nyc": "^8.4.0"
+  },
+  "homepage": "http://aureooms.github.io/js-quicksort",
+  "keywords": [
+    "bricks",
+    "ender",
+    "javascript",
+    "js",
+    "quicksort",
+    "sorting"
+  ],
+  "license": "AGPL-3.0",
+  "main": "lib/index.js",
+  "repository": {
+    "url": "https://github.com/aureooms/js-quicksort.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "cover": "nyc --reporter=lcov npm test",
+    "prepublish": "npm run build",
+    "test": "ava ./test/src"
+  }
+}

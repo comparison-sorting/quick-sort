@@ -6,7 +6,7 @@
 		"test": "./node_modules/.bin/aureooms-node-package-test"
 	},
 	"devDependencies": {
-		"aureooms-js-in-situ-sort-spec": "^6.0.1",
+		"aureooms-js-in-situ-sort-spec": "^7.0.0",
 		"aureooms-js-partition": "^7.0.0",
 		"aureooms-node-package": "^6.0.1"
 	},

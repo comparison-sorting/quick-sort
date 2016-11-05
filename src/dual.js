@@ -1,13 +1,13 @@
 
-let dual = function ( partition ) {
+export function dual ( partition ) {
 
-	let sort = function ( compare, a, i, j ) {
+	const sort = function ( compare, a, i, j ) {
 
 		if ( j - i < 2 ) return ;
 
-		let p = partition( compare , a , i , j ) ;
-		let l = p[0] ;
-		let g = p[1] ;
+		const p = partition( compare , a , i , j ) ;
+		const l = p[0] ;
+		const g = p[1] ;
 
 		sort( compare, a,   i  , l ) ;
 		sort( compare, a, l + 1, g ) ;
@@ -17,6 +17,4 @@ let dual = function ( partition ) {
 
 	return sort ;
 
-} ;
-
-exports.dual = dual ;
+}

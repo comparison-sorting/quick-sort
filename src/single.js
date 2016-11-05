@@ -8,8 +8,7 @@
  * @param {callable} partition the implementation for the partitioning step
  */
 
-let single = function ( partition ) {
-
+export function single ( partition ) {
 
 	/**
 	 * Sorts interval [left,right) of the array parameter according to a
@@ -22,7 +21,7 @@ let single = function ( partition ) {
 	 *
 	 */
 
-	let sort = function ( compare , array , left , right ) {
+	const sort = function ( compare , array , left , right ) {
 
 		// in the case where interval [left,right) contains
 		// only one element we are done!
@@ -35,7 +34,7 @@ let single = function ( partition ) {
 		// is greater or equal to all elements of the first subinterval
 		// and less or equal to all elements of the third subinterval
 
-		let pivot = partition( compare , array , left , right ) ;
+		const pivot = partition( compare , array , left , right ) ;
 
 		// and then we just need to ask the recursion fairy
 		// to sort the first and third subintervals
@@ -50,6 +49,4 @@ let single = function ( partition ) {
 
 	return sort ;
 
-} ;
-
-exports.single = single ;
+}

@@ -1,21 +1,37 @@
 {
   "source": "./src",
   "destination": "./gh-pages",
-  "access": ["public", "protected", "private"],
+  "access": [
+    "public",
+    "protected",
+    "private"
+  ],
   "debug": false,
   "index": "./README.md",
   "package": "./package.json",
-  "title": "aureooms/js-measure",
+  "title": "aureooms/js-quicksort",
   "test": {
     "type": "ava",
     "source": "./test/src"
   },
   "manual": {
-    "overview": ["./doc/manual/overview.md"],
-    "installation": ["./doc/manual/installation.md"],
-    "usage": ["./doc/manual/usage.md"],
-    "example": ["./doc/manual/example.md"]
+    "overview": [
+      "./doc/manual/overview.md"
+    ],
+    "installation": [
+      "./doc/manual/installation.md"
+    ],
+    "usage": [
+      "./doc/manual/usage.md"
+    ],
+    "example": [
+      "./doc/manual/example.md"
+    ]
   },
-  "styles": ["./doc/css/style.css"],
-  "scripts": ["./doc/scripts/header.js"]
+  "styles": [
+    "./doc/css/style.css"
+  ],
+  "scripts": [
+    "./doc/scripts/header.js"
+  ]
 }

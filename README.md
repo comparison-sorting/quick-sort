@@ -1,8 +1,11 @@
-[js-quicksort](http://aureooms.github.io/js-quicksort)
+[@aureooms/js-quicksort](https://aureooms.github.io/js-quicksort)
 ==
 
-Quicksort algorithm for JavaScript. Parent is
-[aureooms/js-sort](https://github.com/aureooms/js-sort).
+<img src="http://web.cs.ucla.edu/~forns/assets/images/winter-2014/cs-32/week-8/sorting-7.PNG" width="864">
+
+Quicksort algorithm for JavaScript.
+See [docs](https://aureooms.github.io/js-quicksort).
+Parent is [@aureooms/js-sort](https://github.com/aureooms/js-sort).
 
 ```js
 let sort = quicksort.singletco( partition.hoare ) ;

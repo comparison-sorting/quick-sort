@@ -1,5 +1,5 @@
 {
-  "name": "aureooms-js-quicksort",
+  "name": "@aureooms/js-quicksort",
   "description": "Quicksort algorithm for JavaScript",
   "version": "8.0.0",
   "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
@@ -24,8 +24,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "aureooms-js-in-situ-sort-spec": "^7.0.0",
-    "aureooms-js-partition": "^8.0.0",
+    "@aureooms/js-in-situ-sort-spec": "^7.0.0",
+    "@aureooms/js-partition": "^8.0.0",
     "ava": "^0.18.0",
     "babel-cli": "^6.22.2",
     "babel-polyfill": "^6.22.0",

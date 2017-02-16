@@ -11,7 +11,7 @@ Parent is [@aureooms/js-sort](https://github.com/aureooms/js-sort).
 let sort = quicksort.singletco( partition.hoare ) ;
 ```
 
-[![NPM license](https://img.shields.io/npm/l/@aureooms/js-quicksort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-quicksort/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-quicksort.svg?style=flat)](https://raw.githubusercontent.com/aureooms/js-quicksort/master/LICENSE)
 [![NPM version](https://img.shields.io/npm/v/@aureooms/js-quicksort.svg?style=flat)](https://www.npmjs.org/package/@aureooms/js-quicksort)
 [![Build Status](https://img.shields.io/travis/aureooms/js-quicksort.svg?style=flat)](https://travis-ci.org/aureooms/js-quicksort)
 [![Coverage Status](https://img.shields.io/coveralls/aureooms/js-quicksort.svg?style=flat)](https://coveralls.io/r/aureooms/js-quicksort)

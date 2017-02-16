@@ -8,7 +8,7 @@ import 'babel-polyfill' ;
 
 Then
 ```js
-const measure = require( 'aureooms-js-quicksort' ) ;
+const measure = require( '@aureooms/js-quicksort' ) ;
 // or
-import measure from 'aureooms-js-quicksort' ;
+import measure from '@aureooms/js-quicksort' ;
 ```

@@ -1,6 +1,6 @@
 ```js
-import partition from "aureooms-js-partition" ;
-import compare from "aureooms-js-compare" ;
+import partition from "@aureooms/js-partition" ;
+import compare from "@aureooms/js-compare" ;
 
 /** recursive single pivot quicksort using Hoare's partitioning algorithm*/
 let sort = quicksort.single( partition.hoare ) ;

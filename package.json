@@ -33,7 +33,7 @@
     "codeclimate-test-reporter": "^0.4.1",
     "coveralls": "^2.11.16",
     "esdoc": "^0.5.2",
-    "nyc": "^10.1.2"
+    "nyc": "^11.0.1"
   },
   "homepage": "http://aureooms.github.io/js-quicksort",
   "keywords": [

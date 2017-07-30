@@ -32,7 +32,7 @@
     "babel-preset-latest": "^6.22.0",
     "codeclimate-test-reporter": "^0.4.1",
     "coveralls": "^2.11.16",
-    "esdoc": "^0.5.2",
+    "esdoc": "^1.0.1",
     "nyc": "^11.0.1"
   },
   "homepage": "http://aureooms.github.io/js-quicksort",

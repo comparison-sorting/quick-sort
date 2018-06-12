@@ -1,7 +1,7 @@
 [@aureooms/js-quicksort](https://aureooms.github.io/js-quicksort)
 ==
 
-<img src="http://web.cs.ucla.edu/~forns/assets/images/winter-2014/cs-32/week-8/sorting-7.PNG" width="864">
+<img src="https://idea-instructions.com/quick-sort.png" width="864">
 
 Quicksort algorithm for JavaScript.
 See [docs](https://aureooms.github.io/js-quicksort).

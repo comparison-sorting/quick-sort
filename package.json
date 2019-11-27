@@ -24,16 +24,16 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@aureooms/js-in-situ-sort-spec": "^7.0.2",
-    "@aureooms/js-partition": "^8.0.0",
-    "ava": "^0.19.1",
-    "babel-cli": "^6.23.0",
-    "babel-polyfill": "^6.23.0",
-    "babel-preset-latest": "^6.22.0",
-    "codeclimate-test-reporter": "^0.4.1",
-    "coveralls": "^2.11.16",
-    "esdoc": "^0.5.2",
-    "nyc": "^11.0.1"
+    "@aureooms/js-in-situ-sort-spec": "7.0.2",
+    "@aureooms/js-partition": "8.0.0",
+    "ava": "0.19.1",
+    "babel-cli": "6.26.0",
+    "babel-polyfill": "6.26.0",
+    "babel-preset-latest": "6.24.1",
+    "codeclimate-test-reporter": "0.4.1",
+    "coveralls": "2.13.3",
+    "esdoc": "0.5.2",
+    "nyc": "11.9.0"
   },
   "homepage": "http://aureooms.github.io/js-quicksort",
   "keywords": [

@@ -1,3 +1,4 @@
+# Examples
 ```js
 import partition from "@aureooms/js-partition" ;
 import compare from "@aureooms/js-compare" ;

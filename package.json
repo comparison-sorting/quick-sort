@@ -28,7 +28,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@aureooms/js-in-situ-sort-spec": "7.0.2",
+    "@aureooms/js-in-situ-sort-spec": "8.0.0",
     "@aureooms/js-partition": "8.0.0",
     "@babel/cli": "7.10.5",
     "@babel/core": "7.11.1",

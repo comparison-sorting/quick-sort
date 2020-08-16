@@ -7,46 +7,47 @@
   resolved "https://registry.yarnpkg.com/@aureooms/js-array/-/js-array-4.0.0.tgz#ea64b7c788644f40bbb92259a6098ac14a4eca6c"
   integrity sha1-6mS3x4hkT0C7uSJZpgmKwUpOymw=
 
-"@aureooms/js-collections-deque@^3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-collections-deque/-/js-collections-deque-3.1.0.tgz#2df0f28883f1367c979232d8c3964aede93d2ded"
-  integrity sha1-LfDyiIPxNnyXkjLYw5ZK7ek9Le0=
+"@aureooms/js-collections-deque@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-collections-deque/-/js-collections-deque-4.0.1.tgz#bd8b827cdb597d061525c380dd704e338c77bd5f"
+  integrity sha512-dktRVLyep0sUKpqgtG/JseA232KMdlu9t9ePq2wHcng1dZ3+63qW2C+FlKXBktrT1dU92DDxIL6PqnV97kHA1Q==
   dependencies:
-    "@aureooms/js-error" "^3.0.0"
+    "@aureooms/js-error" "^4.0.1"
 
-"@aureooms/js-compare@^1.4.5":
-  version "1.4.5"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-compare/-/js-compare-1.4.5.tgz#8531ba35bf2ecb0ec6aca307674276e8dd65c81c"
-  integrity sha1-hTG6Nb8uyw7GrKMHZ0J26N1lyBw=
+"@aureooms/js-compare@^1.4.8":
+  version "1.4.8"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-compare/-/js-compare-1.4.8.tgz#c6bff1091f4a2e211f449299572d9f195146fc59"
+  integrity sha512-Z26PU6OmuhS7ZJsELTKImmipF7J+KCOyN70wBhhVIhmqUhXY6C3JpJHAev6wNBkC4ThlQt3zO6p/OmBFIq76Qg==
 
-"@aureooms/js-error@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-error/-/js-error-3.0.0.tgz#c06a455569c4cb26c3792ab9c9f075da707823de"
-  integrity sha1-wGpFVWnEyybDeSq5yfB12nB4I94=
+"@aureooms/js-error@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-error/-/js-error-4.0.1.tgz#be2740b3f31a337e0828930c9b70d38113b4dd77"
+  integrity sha512-zsgs6wmnRsKljlusewYiBaFBM/hIJp43b7OwE9ybpLEL4wfXjGP17cJTTAY8gpzALVFwEA5/flxIK0I6gJJLHQ==
 
 "@aureooms/js-functools@^2.0.3":
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/@aureooms/js-functools/-/js-functools-2.0.3.tgz#5139d6245278193da4cf21c44666797bf40a1d6e"
   integrity sha1-UTnWJFJ4GT2kzyHERmZ5e/QKHW4=
 
-"@aureooms/js-in-situ-sort-spec@7.0.2":
-  version "7.0.2"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-in-situ-sort-spec/-/js-in-situ-sort-spec-7.0.2.tgz#c881e3780fdd7f14fe73a6e216246b996c2736df"
-  integrity sha1-yIHjeA/dfxT+c6biFiRrmWwnNt8=
+"@aureooms/js-in-situ-sort-spec@8.0.0":
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-in-situ-sort-spec/-/js-in-situ-sort-spec-8.0.0.tgz#7e9fc5cded1746270dbf1e9bf61ae6ae3dd31c90"
+  integrity sha512-boMRf8gpsMqpObk4RNqsdk3+VzhgcO5WwZiNcTnIOWCwzqWxkgpqlYiQCnML3XjyqKd3FcgRCfmlB+BtPTeWSw==
   dependencies:
     "@aureooms/js-array" "^4.0.0"
-    "@aureooms/js-compare" "^1.4.5"
+    "@aureooms/js-compare" "^1.4.8"
     "@aureooms/js-functools" "^2.0.3"
-    "@aureooms/js-itertools" "^3.1.1"
+    "@aureooms/js-itertools" "^4.1.0"
     "@aureooms/js-random" "^2.0.0"
     "@aureooms/js-sort" "^7.0.0"
 
-"@aureooms/js-itertools@^3.1.1":
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/@aureooms/js-itertools/-/js-itertools-3.4.0.tgz#2140cd62e5ae706402afef2e82f924658e0403e2"
-  integrity sha512-lVOnOr1Fo+fdaT20wBEz2q+KOQ145yFB0WNbqY6FkeB2xQrW+Xi9bzwG1kQ9fP5eOQnhyXvBdpYK90AkkZufmA==
+"@aureooms/js-itertools@^4.1.0":
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/@aureooms/js-itertools/-/js-itertools-4.1.0.tgz#c731eaee7de0005c6ea41f2f87cca4bdb2d86ca1"
+  integrity sha512-P9TfwQPuXk5T5z6QMMfwLLyzh9QsEu4sGWcBk/P/waWgim/xqr+LDTOHVo7WU4QAty+/5CBX8DuW7MrPVfXt5A==
   dependencies:
-    "@aureooms/js-collections-deque" "^3.1.0"
+    "@aureooms/js-collections-deque" "^4.0.1"
+    "@aureooms/js-error" "^4.0.1"
 
 "@aureooms/js-partition@8.0.0":
   version "8.0.0"

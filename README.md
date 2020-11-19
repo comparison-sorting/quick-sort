@@ -1,7 +1,16 @@
 :rabbit2: [@aureooms/js-quicksort](https://aureooms.github.io/js-quicksort)
 ==
 
-<img src="https://idea-instructions.com/quick-sort.png" width="864">
+<p align="center">
+<a href="https://idea-instructions.com/quick-sort">
+<img src="https://idea-instructions.com/quick-sort.png" width="600">
+</a><br/>
+<i>IDEA Instructions</i>
+developed by
+<a href="https://www.ibr.cs.tu-bs.de/users/fekete">Sándor P. Fekete</a>
+and
+<a href="https://morr.cc">Sebastian Morr</a>.
+</p>
 
 Quicksort algorithm for JavaScript.
 See [docs](https://aureooms.github.io/js-quicksort).

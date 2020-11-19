@@ -11,9 +11,9 @@ Parent is [@aureooms/js-sort](https://github.com/aureooms/js-sort).
 let sort = quicksort.singletco( partition.hoare ) ;
 ```
 
-[![License](https://img.shields.io/github/license/aureooms/js-quicksort.svg)](https://raw.githubusercontent.com/aureooms/js-quicksort/master/LICENSE)
+[![License](https://img.shields.io/github/license/aureooms/js-quicksort.svg)](https://raw.githubusercontent.com/aureooms/js-quicksort/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@aureooms/js-quicksort.svg)](https://www.npmjs.org/package/@aureooms/js-quicksort)
-[![Build](https://img.shields.io/travis/aureooms/js-quicksort/master.svg)](https://travis-ci.org/aureooms/js-quicksort/branches)
+[![Build](https://img.shields.io/travis/aureooms/js-quicksort/main.svg)](https://travis-ci.org/aureooms/js-quicksort/branches)
 [![Dependencies](https://img.shields.io/david/aureooms/js-quicksort.svg)](https://david-dm.org/aureooms/js-quicksort)
 [![Dev dependencies](https://img.shields.io/david/dev/aureooms/js-quicksort.svg)](https://david-dm.org/aureooms/js-quicksort?type=dev)
 [![GitHub issues](https://img.shields.io/github/issues/aureooms/js-quicksort.svg)](https://github.com/aureooms/js-quicksort/issues)
@@ -21,7 +21,7 @@ let sort = quicksort.singletco( partition.hoare ) ;
 
 [![Code issues](https://img.shields.io/codeclimate/issues/aureooms/js-quicksort.svg)](https://codeclimate.com/github/aureooms/js-quicksort/issues)
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-quicksort.svg)](https://codeclimate.com/github/aureooms/js-quicksort/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-quicksort/master.svg)](https://codecov.io/gh/aureooms/js-quicksort)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-quicksort/main.svg)](https://codecov.io/gh/aureooms/js-quicksort)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-quicksort.svg)](https://codeclimate.com/github/aureooms/js-quicksort/trends/technical_debt)
 [![Documentation](http://aureooms.github.io/js-quicksort/badge.svg)](http://aureooms.github.io/js-quicksort/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-quicksort)](https://bundlephobia.com/result?p=@aureooms/js-quicksort)

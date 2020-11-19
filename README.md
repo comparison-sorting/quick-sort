@@ -1,4 +1,4 @@
-[@aureooms/js-quicksort](https://aureooms.github.io/js-quicksort)
+:rabbit2: [@aureooms/js-quicksort](https://aureooms.github.io/js-quicksort)
 ==
 
 <img src="https://idea-instructions.com/quick-sort.png" width="864">
@@ -26,7 +26,10 @@ let sort = quicksort.singletco( partition.hoare ) ;
 [![Documentation](https://aureooms.github.io/js-quicksort/badge.svg)](https://aureooms.github.io/js-quicksort/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-quicksort)](https://bundlephobia.com/result?p=@aureooms/js-quicksort)
 
-## Reference
+## :scroll: Reference
 
   - https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/3463
+
+## :link: Links
+
   - http://sorting.at

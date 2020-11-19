@@ -23,7 +23,7 @@ let sort = quicksort.singletco( partition.hoare ) ;
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-quicksort.svg)](https://codeclimate.com/github/aureooms/js-quicksort/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-quicksort/main.svg)](https://codecov.io/gh/aureooms/js-quicksort)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-quicksort.svg)](https://codeclimate.com/github/aureooms/js-quicksort/trends/technical_debt)
-[![Documentation](http://aureooms.github.io/js-quicksort/badge.svg)](http://aureooms.github.io/js-quicksort/source.html)
+[![Documentation](https://aureooms.github.io/js-quicksort/badge.svg)](https://aureooms.github.io/js-quicksort/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-quicksort)](https://bundlephobia.com/result?p=@aureooms/js-quicksort)
 
 ## Reference

@@ -79,8 +79,8 @@
   "devDependencies": {
     "@aureooms/js-in-situ-sort-spec": "8.0.0",
     "@aureooms/js-partition": "8.0.0",
-    "@babel/cli": "7.12.7",
-    "@babel/core": "7.12.7",
+    "@babel/cli": "7.12.8",
+    "@babel/core": "7.12.8",
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.12.7",
     "@babel/register": "7.12.1",

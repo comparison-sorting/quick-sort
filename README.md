@@ -1,4 +1,4 @@
-:rabbit2: [@aureooms/js-quicksort](https://aureooms.github.io/js-quicksort)
+:rabbit2: [@aureooms/js-quicksort](https://make-github-pseudonymous-again.github.io/js-quicksort)
 ==
 
 <p align="center">
@@ -13,7 +13,7 @@ and
 </p>
 
 Quicksort algorithm for JavaScript.
-See [docs](https://aureooms.github.io/js-quicksort).
+See [docs](https://make-github-pseudonymous-again.github.io/js-quicksort).
 Parent is [@aureooms/js-sort](https://github.com/aureooms/js-sort).
 
 ```js
@@ -32,7 +32,7 @@ let sort = quicksort.singletco( partition.hoare ) ;
 [![Code maintainability](https://img.shields.io/codeclimate/maintainability/aureooms/js-quicksort.svg)](https://codeclimate.com/github/aureooms/js-quicksort/trends/churn)
 [![Code coverage (cov)](https://img.shields.io/codecov/c/gh/aureooms/js-quicksort/main.svg)](https://codecov.io/gh/aureooms/js-quicksort)
 [![Code technical debt](https://img.shields.io/codeclimate/tech-debt/aureooms/js-quicksort.svg)](https://codeclimate.com/github/aureooms/js-quicksort/trends/technical_debt)
-[![Documentation](https://aureooms.github.io/js-quicksort/badge.svg)](https://aureooms.github.io/js-quicksort/source.html)
+[![Documentation](https://make-github-pseudonymous-again.github.io/js-quicksort/badge.svg)](https://make-github-pseudonymous-again.github.io/js-quicksort/source.html)
 [![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-quicksort)](https://bundlephobia.com/result?p=@aureooms/js-quicksort)
 
 ## :scroll: Reference

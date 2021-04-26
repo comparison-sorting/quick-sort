@@ -73,7 +73,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/aureooms/js-quicksort/issues"
+    "url": "https://github.com/make-github-pseudonymous-again/js-quicksort/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -113,7 +113,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/aureooms/js-quicksort.git",
+    "url": "https://github.com/make-github-pseudonymous-again/js-quicksort.git",
     "type": "git"
   },
   "scripts": {

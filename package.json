@@ -1,8 +1,8 @@
 {
-  "name": "@aureooms/js-quicksort",
+  "name": "@comparison-sorting/quick-sort",
   "description": "Quicksort algorithm for JavaScript",
   "version": "8.0.0",
-  "author": "Aurélien Ooms <aurelien.ooms@gmail.com>",
+  "author": "make-github-pseudonymous-again",
   "ava": {
     "require": [
       "regenerator-runtime/runtime",
@@ -73,7 +73,7 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-quicksort/issues"
+    "url": "https://github.com/comparison-sorting/quick-sort/issues"
   },
   "dependencies": {},
   "devDependencies": {
@@ -101,7 +101,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "http://make-github-pseudonymous-again.github.io/js-quicksort",
+  "homepage": "http://comparison-sorting.github.io/quick-sort",
   "keywords": [
     "bricks",
     "ender",
@@ -113,7 +113,7 @@
   "license": "AGPL-3.0",
   "main": "lib/index.js",
   "repository": {
-    "url": "https://github.com/make-github-pseudonymous-again/js-quicksort.git",
+    "url": "https://github.com/comparison-sorting/quick-sort.git",
     "type": "git"
   },
   "scripts": {

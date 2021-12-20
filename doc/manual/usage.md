@@ -9,7 +9,7 @@ import 'regenerator-runtime/runtime' ;
 
 Then
 ```js
-const measure = require( '@aureooms/js-quicksort' ) ;
+const measure = require( '@comparison-sorting/quick-sort' ) ;
 // or
-import measure from '@aureooms/js-quicksort' ;
+import measure from '@comparison-sorting/quick-sort' ;
 ```

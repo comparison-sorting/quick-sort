@@ -35,7 +35,7 @@
           "autoPrivate": true
         },
         "brand": {
-          "title": "@aureooms/js-quicksort"
+          "title": "@comparison-sorting/quick-sort"
         },
         "test": {
           "type": "ava",

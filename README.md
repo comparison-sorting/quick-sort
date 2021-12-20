@@ -1,4 +1,4 @@
-:rabbit2: [@aureooms/js-quicksort](https://make-github-pseudonymous-again.github.io/js-quicksort)
+:rabbit2: [@comparison-sorting/quick-sort](https://comparison-sorting.github.io/quick-sort)
 ==
 
 <p align="center">
@@ -13,27 +13,27 @@ and
 </p>
 
 Quicksort algorithm for JavaScript.
-See [docs](https://make-github-pseudonymous-again.github.io/js-quicksort).
+See [docs](https://comparison-sorting.github.io/quick-sort).
 Parent is [js-sorting](https://github.com/make-github-pseudonymous-again/js-sorting).
 
 ```js
 let sort = quicksort.singletco( partition.hoare ) ;
 ```
 
-[![License](https://img.shields.io/github/license/make-github-pseudonymous-again/js-quicksort.svg)](https://raw.githubusercontent.com/make-github-pseudonymous-again/js-quicksort/main/LICENSE)
-[![Version](https://img.shields.io/npm/v/@aureooms/js-quicksort.svg)](https://www.npmjs.org/package/@aureooms/js-quicksort)
-[![Build](https://img.shields.io/travis/make-github-pseudonymous-again/js-quicksort/main.svg)](https://travis-ci.org/make-github-pseudonymous-again/js-quicksort/branches)
-[![Dependencies](https://img.shields.io/david/make-github-pseudonymous-again/js-quicksort.svg)](https://david-dm.org/make-github-pseudonymous-again/js-quicksort)
-[![Dev dependencies](https://img.shields.io/david/dev/make-github-pseudonymous-again/js-quicksort.svg)](https://david-dm.org/make-github-pseudonymous-again/js-quicksort?type=dev)
-[![GitHub issues](https://img.shields.io/github/issues/make-github-pseudonymous-again/js-quicksort.svg)](https://github.com/make-github-pseudonymous-again/js-quicksort/issues)
-[![Downloads](https://img.shields.io/npm/dm/@aureooms/js-quicksort.svg)](https://www.npmjs.org/package/@aureooms/js-quicksort)
+[![License](https://img.shields.io/github/license/comparison-sorting/quick-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/quick-sort/main/LICENSE)
+[![Version](https://img.shields.io/npm/v/@comparison-sorting/quick-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/quick-sort)
+[![Build](https://img.shields.io/travis/comparison-sorting/quick-sort/main.svg)](https://travis-ci.org/comparison-sorting/quick-sort/branches)
+[![Dependencies](https://img.shields.io/david/comparison-sorting/quick-sort.svg)](https://david-dm.org/comparison-sorting/quick-sort)
+[![Dev dependencies](https://img.shields.io/david/dev/comparison-sorting/quick-sort.svg)](https://david-dm.org/comparison-sorting/quick-sort?type=dev)
+[![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/quick-sort.svg)](https://github.com/comparison-sorting/quick-sort/issues)
+[![Downloads](https://img.shields.io/npm/dm/@comparison-sorting/quick-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/quick-sort)
 
-[![Code issues](https://img.shields.io/codeclimate/issues/make-github-pseudonymous-again/js-quicksort.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-quicksort/issues)
-[![Code maintainability](https://img.shields.io/codeclimate/maintainability/make-github-pseudonymous-again/js-quicksort.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-quicksort/trends/churn)
-[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/make-github-pseudonymous-again/js-quicksort/main.svg)](https://codecov.io/gh/make-github-pseudonymous-again/js-quicksort)
-[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/make-github-pseudonymous-again/js-quicksort.svg)](https://codeclimate.com/github/make-github-pseudonymous-again/js-quicksort/trends/technical_debt)
-[![Documentation](https://make-github-pseudonymous-again.github.io/js-quicksort/badge.svg)](https://make-github-pseudonymous-again.github.io/js-quicksort/source.html)
-[![Package size](https://img.shields.io/bundlephobia/minzip/@aureooms/js-quicksort)](https://bundlephobia.com/result?p=@aureooms/js-quicksort)
+[![Code issues](https://img.shields.io/codeclimate/issues/comparison-sorting/quick-sort.svg)](https://codeclimate.com/github/comparison-sorting/quick-sort/issues)
+[![Code maintainability](https://img.shields.io/codeclimate/maintainability/comparison-sorting/quick-sort.svg)](https://codeclimate.com/github/comparison-sorting/quick-sort/trends/churn)
+[![Code coverage (cov)](https://img.shields.io/codecov/c/gh/comparison-sorting/quick-sort/main.svg)](https://codecov.io/gh/comparison-sorting/quick-sort)
+[![Code technical debt](https://img.shields.io/codeclimate/tech-debt/comparison-sorting/quick-sort.svg)](https://codeclimate.com/github/comparison-sorting/quick-sort/trends/technical_debt)
+[![Documentation](https://comparison-sorting.github.io/quick-sort/badge.svg)](https://comparison-sorting.github.io/quick-sort/source.html)
+[![Package size](https://img.shields.io/bundlephobia/minzip/@comparison-sorting/quick-sort)](https://bundlephobia.com/result?p=@comparison-sorting/quick-sort)
 
 ## :scroll: Reference
 

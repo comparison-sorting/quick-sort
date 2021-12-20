@@ -5,10 +5,10 @@ or [npm](https://github.com/npm/npm).
 
 ### jspm
 ```terminal
-jspm install npm:@aureooms/js-quicksort
+jspm install npm:@comparison-sorting/quick-sort
 ```
 
 ### npm
 ```terminal
-npm install @aureooms/js-quicksort --save
+npm install @comparison-sorting/quick-sort --save
 ```

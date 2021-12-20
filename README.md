@@ -22,7 +22,7 @@ let sort = quicksort.singletco( partition.hoare ) ;
 
 [![License](https://img.shields.io/github/license/comparison-sorting/quick-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/quick-sort/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@comparison-sorting/quick-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/quick-sort)
-[![Build](https://img.shields.io/travis/comparison-sorting/quick-sort/main.svg)](https://travis-ci.com/comparison-sorting/quick-sort/branches)
+[![Tests](https://img.shields.io/github/workflow/status/comparison-sorting/quick-sort/ci:test?event=push&label=tests)](https://github.com/comparison-sorting/quick-sort/actions/workflows/ci:test.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/comparison-sorting/quick-sort.svg)](https://github.com/comparison-sorting/quick-sort/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/quick-sort.svg)](https://github.com/comparison-sorting/quick-sort/issues)
 [![Downloads](https://img.shields.io/npm/dm/@comparison-sorting/quick-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/quick-sort)

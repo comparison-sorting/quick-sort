@@ -1,7 +1,7 @@
 {
   "name": "@comparison-sorting/quick-sort",
   "description": "Quicksort algorithm for JavaScript",
-  "version": "8.0.0",
+  "version": "9.0.0",
   "license": "AGPL-3.0",
   "author": "make-github-pseudonymous-again",
   "homepage": "https://comparison-sorting.github.io/quick-sort",

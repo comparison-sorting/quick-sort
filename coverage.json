@@ -7,14 +7,14 @@
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        2
+        1
       ]
     },
     "src/dualtco.js": {
       "expectCount": 1,
       "actualCount": 0,
       "undocumentLines": [
-        2
+        1
       ]
     },
     "src/single.js": {

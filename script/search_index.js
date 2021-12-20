@@ -1,26 +1,26 @@
 window.esdocSearchIndex = [
   [
-    "@aureooms/js-quicksort/src/dual.js~dual",
+    "@comparison-sorting/quick-sort/src/dual.js~dual",
     "function/index.html#static-function-dual",
-    "<span>dual</span> <span class=\"search-result-import-path\">@aureooms/js-quicksort/src/dual.js</span>",
+    "<span>dual</span> <span class=\"search-result-import-path\">@comparison-sorting/quick-sort/src/dual.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-quicksort/src/dualtco.js~dualtco",
+    "@comparison-sorting/quick-sort/src/dualtco.js~dualtco",
     "function/index.html#static-function-dualtco",
-    "<span>dualtco</span> <span class=\"search-result-import-path\">@aureooms/js-quicksort/src/dualtco.js</span>",
+    "<span>dualtco</span> <span class=\"search-result-import-path\">@comparison-sorting/quick-sort/src/dualtco.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-quicksort/src/single.js~single",
+    "@comparison-sorting/quick-sort/src/single.js~single",
     "function/index.html#static-function-single",
-    "<span>single</span> <span class=\"search-result-import-path\">@aureooms/js-quicksort/src/single.js</span>",
+    "<span>single</span> <span class=\"search-result-import-path\">@comparison-sorting/quick-sort/src/single.js</span>",
     "function"
   ],
   [
-    "@aureooms/js-quicksort/src/singletco.js~singletco",
+    "@comparison-sorting/quick-sort/src/singletco.js~singletco",
     "function/index.html#static-function-singletco",
-    "<span>singletco</span> <span class=\"search-result-import-path\">@aureooms/js-quicksort/src/singletco.js</span>",
+    "<span>singletco</span> <span class=\"search-result-import-path\">@comparison-sorting/quick-sort/src/singletco.js</span>",
     "function"
   ],
   [

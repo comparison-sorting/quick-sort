@@ -1,9 +1,9 @@
 import ava from 'ava' ;
 
-import * as partition from "@aureooms/js-partition" ;
-import * as spec from "@aureooms/js-in-situ-sort-spec" ;
+import * as partition from "@comparison-sorting/partition" ;
+import * as spec from "@comparison-sorting/specification" ;
 
-import * as quicksort from '../../src' ;
+import * as quicksort from '../../src/index.js' ;
 
 spec.test( ava , [
     [ "single pivot quicksort (hoare)", quicksort.single( partition.hoare ) ],

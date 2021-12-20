@@ -1,7 +1,8 @@
 # Examples
 ```js
-import partition from "@aureooms/js-partition" ;
-import compare from "@aureooms/js-compare" ;
+import * as compare from '@total-order/primitive';
+import * as partition from '@comparison-sorting/partition';
+import * as quicksort from '@comparison-sorting/quick-sort';
 
 /** recursive single pivot quicksort using Hoare's partitioning algorithm*/
 let sort = quicksort.single( partition.hoare ) ;

@@ -14,7 +14,7 @@ and
 
 Quicksort algorithm for JavaScript.
 See [docs](https://make-github-pseudonymous-again.github.io/js-quicksort).
-Parent is [@aureooms/js-sort](https://github.com/make-github-pseudonymous-again/js-sort).
+Parent is [js-sorting](https://github.com/make-github-pseudonymous-again/js-sorting).
 
 ```js
 let sort = quicksort.singletco( partition.hoare ) ;

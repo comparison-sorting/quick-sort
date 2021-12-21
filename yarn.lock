@@ -1154,12 +1154,12 @@
   resolved "https://registry.yarnpkg.com/@comparison-sorting/is-sorted/-/is-sorted-0.0.1.tgz#db4d0e0e78f2e06a01a90a490cbc5210d07687c7"
   integrity sha512-hi9Nk2Pp8VKuN1AG1OFDiCOJT0ByPQ2s8GiO1hAXYPEPq7CNU2HRKUtYK4qrP2rHwcXmmM/v6AKjL3SES7uPSw==
 
-"@comparison-sorting/partition@^10.0.0":
+"@comparison-sorting/partition@10.0.0":
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/@comparison-sorting/partition/-/partition-10.0.0.tgz#45983a6586cbde0618e78e436a4338e37b3c5187"
   integrity sha512-e7AL7SIqDhCoByx6N9PdSSMIZyxx/lMlNsA9qSgDWaVfXu3UjaSCUMC+Bv871Ghtg/YCdk25QhJRgXCcLynDrw==
 
-"@comparison-sorting/specification@^9.0.0":
+"@comparison-sorting/specification@9.0.0":
   version "9.0.0"
   resolved "https://registry.yarnpkg.com/@comparison-sorting/specification/-/specification-9.0.0.tgz#88ac742637347f2b213e858cc4fd6937169c4ea6"
   integrity sha512-Oqu//k3WxoZ/6pam532nwZixFqpI12nYr47n38DRygskJpn7lVBCDaDGQMdl0ZJc8hZP1I4ml9sQ2zw0uWaxeQ==
@@ -1933,7 +1933,7 @@ autoprefixer@^10.1.0:
     picocolors "^1.0.0"
     postcss-value-parser "^4.1.0"
 
-ava@^3.15.0:
+ava@3.15.0:
   version "3.15.0"
   resolved "https://registry.yarnpkg.com/ava/-/ava-3.15.0.tgz#a239658ab1de8a29a243cc902e6b42e4574de2f0"
   integrity sha512-HGAnk1SHPk4Sx6plFAUkzV/XC1j9+iQhOzt4vBly18/yo0AV8Oytx7mtJd/CR8igCJ5p160N/Oo/cNJi2uSeWA==

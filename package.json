@@ -68,7 +68,7 @@
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.20.2",
     "@babel/register": "7.18.9",
-    "@commitlint/cli": "17.2.0",
+    "@commitlint/cli": "17.3.0",
     "@comparison-sorting/partition": "10.0.0",
     "@comparison-sorting/specification": "9.0.0",
     "@js-library/commitlint-config": "0.0.4",

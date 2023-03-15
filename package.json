@@ -64,7 +64,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.21.0",
+    "@babel/core": "7.21.3",
     "@babel/polyfill": "7.12.1",
     "@babel/preset-env": "7.20.2",
     "@babel/register": "7.21.0",

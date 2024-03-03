@@ -4,7 +4,7 @@ import ava from 'ava';
 import * as partition from '@comparison-sorting/partition';
 import * as spec from '@comparison-sorting/specification';
 
-import * as quicksort from '../../src/index.js';
+import * as quicksort from '#module';
 
 spec.test(ava, [
 	['single pivot quicksort (hoare)', quicksort.single(partition.hoare)],

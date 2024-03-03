@@ -22,7 +22,7 @@ let sort = quicksort.singletco( partition.hoare ) ;
 
 [![License](https://img.shields.io/github/license/comparison-sorting/quick-sort.svg)](https://raw.githubusercontent.com/comparison-sorting/quick-sort/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@comparison-sorting/quick-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/quick-sort)
-[![Tests](https://img.shields.io/github/workflow/status/comparison-sorting/quick-sort/ci?event=push&label=tests)](https://github.com/comparison-sorting/quick-sort/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/comparison-sorting/quick-sort/ci.yml?branch=main&event=push&label=tests)](https://github.com/comparison-sorting/quick-sort/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/comparison-sorting/quick-sort.svg)](https://github.com/comparison-sorting/quick-sort/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/comparison-sorting/quick-sort.svg)](https://github.com/comparison-sorting/quick-sort/issues)
 [![Downloads](https://img.shields.io/npm/dm/@comparison-sorting/quick-sort.svg)](https://www.npmjs.org/package/@comparison-sorting/quick-sort)

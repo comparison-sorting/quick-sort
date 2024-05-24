@@ -71,9 +71,9 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.24.5",
+    "@babel/core": "7.24.6",
     "@babel/polyfill": "7.12.1",
-    "@babel/preset-env": "7.24.5",
+    "@babel/preset-env": "7.24.6",
     "@commitlint/cli": "19.3.0",
     "@comparison-sorting/partition": "10.0.0",
     "@comparison-sorting/specification": "9.0.0",
